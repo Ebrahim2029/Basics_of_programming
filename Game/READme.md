@@ -23,20 +23,26 @@ Written in C++ and SDL .
       
         1. In "Include Directories", add the paths to the include folders of both SDL2 and SDL_image
            e.g., C:\SDL\SDL2-x.x.x\include and C:\SDL\SDL2_image-x.x.x\include.
-           <img src="images/1.png" width="70%"  alt="РИС.1">
-          ![РИС.2](images/2.png){ width=20%}
+           
+           <img src="images/1.png" width="60%"  alt="РИС.1">
+           <img src="images/2.png" width="60%"  alt="РИС.2">
       
         2. In "Library Directories", add the paths to the lib folders of both SDL2 and SDL_image
-           ![РИС.3](images/3.png){ width=20%}
-          ![РИС.4](images/4.png){ width=20%}
-       e.g., C:\SDL\SDL2-x.x.x\lib\x64 and C:\SDL\SDL2_image-x.x.x\lib\x64 (choose x64 or x86 based on your project's architecture).
+           
+           <img src="images/3.png" width="60%"  alt="РИС.3">
+           <img src="images/4.png" width="60%"  alt="РИС.4">
+      
+           e.g., C:\SDL\SDL2-x.x.x\lib\x64 and C:\SDL\SDL2_image-x.x.x\lib\x64 (choose x64 or x86 based on your project's architecture).
 
     ### Link the Libraries:
     
-    1. In the project properties, navigate to Linker -> Input.
-     ![РИС.5](images/5.png){ width=80%}
-     ![РИС.6](images/6.png){ width=80%}
-  
-    2. In "Additional Dependencies", add SDL2.lib, SDL2main.lib, and SDL2_image.lib.
-      1. Copy the DLLs to Your Project:
-      2. Copy SDL2.dll and SDL2_image.dll from the lib\x64 (or lib\x86) folders to your project’s directory where the executable is generated (often in the Debug or Release folder).
+     1. In the project properties, navigate to Linker -> Input.
+        
+           <img src="images/5.png" width="60%"  alt="РИС.5">
+           <img src="images/6.png" width="60%"  alt="РИС.6">
+   
+     2. In "Additional Dependencies", add SDL2.lib, SDL2main.lib, and SDL2_image.lib.
+        
+           1. Copy the DLLs to Your Project:
+              
+              Copy SDL2.dll and SDL2_image.dll from the lib\x64 (or lib\x86) folders to your project’s directory where the executable is generated (often in the Debug or Release folder).
