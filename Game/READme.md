@@ -23,19 +23,19 @@ Written in C++ and SDL .
       
         1. In "Include Directories", add the paths to the include folders of both SDL2 and SDL_image
            e.g., C:\SDL\SDL2-x.x.x\include and C:\SDL\SDL2_image-x.x.x\include.
-          ![РИС.1](/images/1.png)
-          ![РИС.2](/images/2.png)
+          ![РИС.1](images/1.png)
+          ![РИС.2](images/2.png)
       
         2. In "Library Directories", add the paths to the lib folders of both SDL2 and SDL_image
-           ![РИС.3](/images/3.png)
-          ![РИС.4](/images/4.png)
+           ![РИС.3](images/3.png)
+          ![РИС.4](images/4.png)
        e.g., C:\SDL\SDL2-x.x.x\lib\x64 and C:\SDL\SDL2_image-x.x.x\lib\x64 (choose x64 or x86 based on your project's architecture).
 
     ### Link the Libraries:
     
     1. In the project properties, navigate to Linker -> Input.
-     ![РИС.5](/images/5.png)
-     ![РИС.6](/images/6.png)
+     ![РИС.5](images/5.png)
+     ![РИС.6](images/6.png)
   
     2. In "Additional Dependencies", add SDL2.lib, SDL2main.lib, and SDL2_image.lib.
       1. Copy the DLLs to Your Project:
