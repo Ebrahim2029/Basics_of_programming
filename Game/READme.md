@@ -23,7 +23,7 @@ Written in C++ and SDL .
       
         1. In "Include Directories", add the paths to the include folders of both SDL2 and SDL_image
            e.g., C:\SDL\SDL2-x.x.x\include and C:\SDL\SDL2_image-x.x.x\include.
-           <img src="images/1.png" width="20%"  alt="РИС.1">
+           <img src="images/1.png" width="70%"  alt="РИС.1">
           ![РИС.2](images/2.png){ width=20%}
       
         2. In "Library Directories", add the paths to the lib folders of both SDL2 and SDL_image
